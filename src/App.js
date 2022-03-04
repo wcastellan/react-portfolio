@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Nav from './components/Nav';
 import Portfolio from './components/Portfolio';
 import Resume from './components/Resume';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
       </Switch>
+      <Footer />
     </Router>
   );
 }

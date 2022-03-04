@@ -28,19 +28,22 @@ function Contact() {
     }
 
     return (
-        <section>
+        <section id="contact" class="contact">
             <h1>Contact me</h1>
-            <form id="contact-form" onSubmit={handleSubmit}>
+            <form id="contact-form" class="contact-form" onSubmit={handleSubmit}>
                 <div>
                     <label htmlFor="name">Name:</label>
+                    <br></br>
                     <input type="text" defaultValue={name} onBlur={handleChange} name="name" />
                 </div>
                 <div>
                     <label htmlFor="email">Email address:</label>
+                    <br></br>
                     <input type="email" defaultValue={email} name="email" onBlur={handleChange} />
                 </div>
                 <div>
                     <label htmlFor="message">Message:</label>
+                    <br></br>
                     <textarea name="message" defaultValue={message} onBlur={handleChange} rows="5" />
                     {
                         <div>
