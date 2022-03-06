@@ -81,11 +81,63 @@ header nav ul li {
   margin: 10px;
 }
 
-.contact-form {
-  max-width: 100%;
+.portfolio {
+  align-items: center;
+  border-left: dashed #E6F9AF;
+  border-radius: 2px;
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 30px;
+  padding: 10px;
+  width: 90%;
+}
+
+.portfolio-list {
+  align-items: center;
   flex-direction: column;
   flex-wrap: wrap;
+}
+
+.portfolio h1 {
+  font-size: 2vw;
+  margin: 10px;
+  margin-left: 27px;
+}
+
+.header {
+  font-size: 1.75vw;
+  margin: 5px;
+  text-decoration: underline;
+}
+
+.portfolio section {
+  width: 100%;
+  align-items: flex-start;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.image {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.work-image {
+  border: .3vh solid black;
+  border-radius: 2%;
+  margin: 2vh 5vh 5vh;
+  padding: 0;
+  position: relative;
+  width: 70%;
+}
+
+.ahref {
+  display: flex;
+  justify-content: center;
 }
 
 .contact {
@@ -99,13 +151,20 @@ header nav ul li {
   padding: 10px;
 }
 
+.contact-form div {
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .contact h1 {
   font-size: 2vw;
   margin: 10px;
 }
 
 .contact input, label, textarea {
-  margin: 10px;
+  margin: 5px;
   padding: 5px;
   width: 90%;
 }

@@ -23,7 +23,7 @@ function Resume(props) {
                 </ul>
             
             </div>
-            <a class="resume-link" href="./images/resume.PNG" download="Wyatt Castellan Resume"><button>Download Resume</button></a>
+            <a class="resume-link" href="images/resume.PNG" download="Wyatt Castellan Resume"><button>Download Resume</button></a>
         </div>
     )
 }
