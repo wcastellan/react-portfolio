@@ -8,8 +8,8 @@ function Portfolio(props) {
 
             <div class="image">
                     <h2 class="header">Meal Crafter</h2>
-                    <a class="ahref" href="https://wcastellan.github.io/meal-crafter/" target="_blank" rel="meal-crafter">
-                        <img class="work-image" src={require(`../images/mealcrafter.PNG`)} alt="Meal Crafter" />
+                    <a class="ahref" href="https://protected-forest-66303.herokuapp.com/" target="_blank" rel="talkie-box">
+                        <img class="work-image" src={require(`../images/talkiebox.PNG`)} alt="Talkie-Box" />
                     </a>
                 </div>
 
