@@ -7,7 +7,7 @@ function Portfolio(props) {
             <section class="portfolio-list">
 
             <div class="image">
-                    <h2 class="header">Meal Crafter</h2>
+                    <h2 class="header">Talkie-Box</h2>
                     <a class="ahref" href="https://protected-forest-66303.herokuapp.com/" target="_blank" rel="talkie-box">
                         <img class="work-image" src={require(`../images/talkiebox.PNG`)} alt="Talkie-Box" />
                     </a>
